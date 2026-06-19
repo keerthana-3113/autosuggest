@@ -1,3 +1,15 @@
 h1 {
     color: red;
 }
+#heading2 {
+    color: rgb(243, 133, 255);
+}
+.heading{
+    color: rgb(0, 255, 200);
+}.para{
+    border: 2px
+    border-color: black;
+    border-style: solid;
+    padding: 20px;
+    text-align: center;
+}
