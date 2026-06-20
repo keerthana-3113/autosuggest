@@ -45,3 +45,9 @@ body{
 }.card button{
     margin-bottom: 20px;
 }
+body h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
