@@ -9,15 +9,19 @@
 <body>
     <div class="nav">
         <a href="/">Home</a>
-        <a href="pages/card.html">Card</a>
-        <a href="pages/toggle.html">Toggle</a>
+        <a href="/pages/card.html">Card</a>
+        <a href="/pages/toggle.html">Toggle</a>
         <a href="">Random User</a>
     </div>
     <div class="card">
-        <img src="../images/john.png" alt="user image">
-        <h2>John Doe </h2>
-        <p>Male</p>
+        <img id="user-img"
+            src="../images/john.png" alt="user image">
+            
+        <h2 id="user-name">John Doe </h2>
+        <p id="user-gender">Male</p>
+        <button class="btn" onclick="toggle()">Toggle</button>
     </div>
     <script src="../js/index.js"></script>
+    <script src="../js/toggle.js"></script>
 </body>
 </html>
